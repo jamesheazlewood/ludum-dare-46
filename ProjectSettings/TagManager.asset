@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Bullet
+  - Human
+  - Bug
+  - Screen Trigger
+  - Enemy Exit Trigger
   layers:
   - Default
   - TransparentFX
