@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: 1b3c5d3f21324c046a5998c27444df66
+guid: 288f657fff76f3a4d8bfaf6bd5338e6c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1735915570321673149
-    second: Bullets 1_0
+      213: 617944759787250301
+    second: Bullets 2_0
   - first:
-      213: 6264521311052383011
-    second: Bullets 1_1
+      213: 6805219784046724669
+    second: Bullets 2_1
   - first:
-      213: 8524328865737218963
-    second: Bullets 1_2
+      213: -1515965885592778387
+    second: Bullets 2_2
   - first:
-      213: 3177258865030970662
-    second: Bullets 1_3
+      213: 2216163553457672345
+    second: Bullets 2_3
   - first:
-      213: 255316752537158514
-    second: Bullets 1_4
+      213: 4664553563465777751
+    second: Bullets 2_4
   - first:
-      213: -8886535817120683870
-    second: Bullets 1_5
+      213: -5031999268500696774
+    second: Bullets 2_5
   - first:
-      213: -8723275721964479707
-    second: Bullets 1_6
+      213: 4623425621457270988
+    second: Bullets 2_6
   - first:
-      213: 1185329322599831037
-    second: Bullets 1_7
+      213: 5143802602460295036
+    second: Bullets 2_7
   - first:
-      213: 1627037474975009648
-    second: Bullets 1_8
+      213: -2388741981153292620
+    second: Bullets 2_8
   - first:
-      213: 4901479540378655238
-    second: Bullets 1_9
+      213: 6533409190347871533
+    second: Bullets 2_9
   - first:
-      213: -5416491326816216934
-    second: Bullets 1_10
+      213: -1534963895974012177
+    second: Bullets 2_10
   - first:
-      213: 4513656524735533786
-    second: Bullets 1_11
+      213: -4263133109856710230
+    second: Bullets 2_11
   - first:
-      213: -1837971002883480884
-    second: Bullets 1_12
+      213: 2058705663703205677
+    second: Bullets 2_12
   - first:
-      213: -6739338185064427055
-    second: Bullets 1_13
+      213: 580178196947777281
+    second: Bullets 2_13
   - first:
-      213: -8043566971692214676
-    second: Bullets 1_14
+      213: 541672064196893443
+    second: Bullets 2_14
   - first:
-      213: 4559338451480485894
-    second: Bullets 1_15
+      213: -2021827734529451643
+    second: Bullets 2_15
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -158,7 +158,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bullets 1_0
+      name: Bullets 2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -172,14 +172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08e17d3c34a4a0d4bac52ad920985e91
-      internalID: 1735915570321673149
+      spriteID: f6e70a2b294220f49a158ea825dc8f19
+      internalID: 617944759787250301
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_1
+      name: Bullets 2_1
       rect:
         serializedVersion: 2
         x: 128
@@ -193,14 +193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0527e4696f7e1144992be9ad947d80a7
-      internalID: 6264521311052383011
+      spriteID: a66ab8d2d64d1604f9e27e0b977a6706
+      internalID: 6805219784046724669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_2
+      name: Bullets 2_2
       rect:
         serializedVersion: 2
         x: 256
@@ -214,14 +214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 692117705feb1ef45ab95a64f43b2811
-      internalID: 8524328865737218963
+      spriteID: eb75814ca07f7084c8f2d31cfcc4ad17
+      internalID: -1515965885592778387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_3
+      name: Bullets 2_3
       rect:
         serializedVersion: 2
         x: 384
@@ -235,14 +235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de55d8f6a45a44644b266a3c697f3242
-      internalID: 3177258865030970662
+      spriteID: 68f7cff6705c02a418726c8fd3081b62
+      internalID: 2216163553457672345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_4
+      name: Bullets 2_4
       rect:
         serializedVersion: 2
         x: 0
@@ -256,14 +256,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6feaf9cf4ee0294e87393b8497110c4
-      internalID: 255316752537158514
+      spriteID: 46713a7554833344ba8f15fcedbb27ee
+      internalID: 4664553563465777751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_5
+      name: Bullets 2_5
       rect:
         serializedVersion: 2
         x: 128
@@ -277,14 +277,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d79b86deef148b44286d88242336b957
-      internalID: -8886535817120683870
+      spriteID: d2f2afe40a00b6f4ba75f682b1f79611
+      internalID: -5031999268500696774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_6
+      name: Bullets 2_6
       rect:
         serializedVersion: 2
         x: 256
@@ -298,14 +298,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01675e0a2f2be77458850cca8f3cd901
-      internalID: -8723275721964479707
+      spriteID: 723848550320c684eb220d32921479f8
+      internalID: 4623425621457270988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_7
+      name: Bullets 2_7
       rect:
         serializedVersion: 2
         x: 384
@@ -319,14 +319,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5b9834a6a3568f44bd1671020397a8e
-      internalID: 1185329322599831037
+      spriteID: f5703e0029da39645ab736e6884d053f
+      internalID: 5143802602460295036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_8
+      name: Bullets 2_8
       rect:
         serializedVersion: 2
         x: 0
@@ -340,14 +340,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0d05a05c27b3934889f0a9bba67b7e4
-      internalID: 1627037474975009648
+      spriteID: 8e4ec1938ddec9a4db2bd6e2a728b7ec
+      internalID: -2388741981153292620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_9
+      name: Bullets 2_9
       rect:
         serializedVersion: 2
         x: 128
@@ -361,14 +361,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d12d59f980adc794a8fd5a869ece5371
-      internalID: 4901479540378655238
+      spriteID: ef0d93ac566b8014180f9df2ef0284ba
+      internalID: 6533409190347871533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_10
+      name: Bullets 2_10
       rect:
         serializedVersion: 2
         x: 256
@@ -382,14 +382,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8dae46a20761004f9c2fef827ab2cce
-      internalID: -5416491326816216934
+      spriteID: 8e3ad1300d4566c4fa42c5ee7a0a8dfe
+      internalID: -1534963895974012177
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_11
+      name: Bullets 2_11
       rect:
         serializedVersion: 2
         x: 384
@@ -403,14 +403,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f44e2950a1642c645be3923d8568e78b
-      internalID: 4513656524735533786
+      spriteID: d5b1f06003ff3b24cba73d14cffa6c4d
+      internalID: -4263133109856710230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_12
+      name: Bullets 2_12
       rect:
         serializedVersion: 2
         x: 0
@@ -424,14 +424,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f24c5ee7b49b16468e527444bc9be6c
-      internalID: -1837971002883480884
+      spriteID: 55bbe0a1e956a8244a78d518c4fe6307
+      internalID: 2058705663703205677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_13
+      name: Bullets 2_13
       rect:
         serializedVersion: 2
         x: 128
@@ -445,14 +445,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0c34c9ae53adc842b03f5079b6f1c97
-      internalID: -6739338185064427055
+      spriteID: a1e05bcbae844d444a648ecca0b01c47
+      internalID: 580178196947777281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_14
+      name: Bullets 2_14
       rect:
         serializedVersion: 2
         x: 256
@@ -466,14 +466,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1381398919b4f33448f3ed6af205240e
-      internalID: -8043566971692214676
+      spriteID: fc4bb24a5227e934fbde8e7557aaab2e
+      internalID: 541672064196893443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_15
+      name: Bullets 2_15
       rect:
         serializedVersion: 2
         x: 384
@@ -487,8 +487,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edbe29afe8b20b54fb651b5ae419ad1a
-      internalID: 4559338451480485894
+      spriteID: 65dfe03923f292d4db1d50b639d8b81c
+      internalID: -2021827734529451643
       vertices: []
       indices: 
       edges: []

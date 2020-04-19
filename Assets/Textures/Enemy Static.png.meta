@@ -1,31 +1,40 @@
 fileFormatVersion: 2
-guid: 9838cf087f27c014e841be1719c7321c
+guid: ec7cb357f63818043b6fbdc3ef1b2e9f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -369691517897656074
-    second: Flames_0
+      213: 8745238735119033065
+    second: Horn
   - first:
-      213: 1535082918638315374
-    second: Flames_1
+      213: -863084280879704380
+    second: Roast
   - first:
-      213: 7050651123713931954
-    second: Flames_2
+      213: -3629666219215125409
+    second: Three Eyes
   - first:
-      213: 949203575122469728
-    second: Flames_3
+      213: -6313623407475228949
+    second: Long Eye
   - first:
-      213: -2542845589123044698
-    second: Flames_4
+      213: -8349804952449439628
+    second: Eye
   - first:
-      213: -2176228539672562248
-    second: Flames_5
+      213: -6126460425838939174
+    second: Wing Casing
   - first:
-      213: -3046396029731019298
-    second: Flames_6
+      213: -8607786068552384979
+    second: Pimple With Leg
   - first:
-      213: 1319885501432452920
-    second: Flames_7
+      213: 8023339826210084552
+    second: Spider Butt
+  - first:
+      213: -3304909427264989337
+    second: Gun Auto
+  - first:
+      213: 9151044639295326895
+    second: Gun Directional
+  - first:
+      213: -1087076532282582512
+    second: Bubbles
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -110,70 +119,70 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Flames_0
+      name: Horn
       rect:
         serializedVersion: 2
         x: 0
         y: 384
         width: 128
         height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.56944436, y: 0.8395059}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0140344b2b573a4aa982cbc0f426ad8
-      internalID: -369691517897656074
+      spriteID: 9758fead1e1d1f449914dd10b2b93330
+      internalID: 8745238735119033065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flames_1
+      name: Roast
       rect:
         serializedVersion: 2
         x: 128
         y: 384
         width: 128
         height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.46913576, y: 0.56172824}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60df14c2e771b864aa4079a674d2a09b
-      internalID: 1535082918638315374
+      spriteID: 90593797d7633ef4d94a21eea95e9915
+      internalID: -863084280879704380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flames_2
+      name: Three Eyes
       rect:
         serializedVersion: 2
         x: 256
         y: 384
         width: 128
         height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.73919725, y: 0.43055534}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc446b7a749f1dc438c7877f5ef90b00
-      internalID: 7050651123713931954
+      spriteID: 6f51c7f47d3c4ac49859b4900ecc0913
+      internalID: -3629666219215125409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flames_3
+      name: Long Eye
       rect:
         serializedVersion: 2
         x: 384
@@ -181,20 +190,20 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7741707eab431024d9318601cb448bec
-      internalID: 949203575122469728
+      spriteID: f001b45701d19fd4d8bbd93abf0980b3
+      internalID: -6313623407475228949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flames_4
+      name: Eye
       rect:
         serializedVersion: 2
         x: 0
@@ -202,77 +211,140 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d91913e85f7c1d84f889c55eb5c5a0ca
-      internalID: -2542845589123044698
+      spriteID: e3c85a3ccae044841bc572b4c3ae5a94
+      internalID: -8349804952449439628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flames_5
+      name: Wing Casing
       rect:
         serializedVersion: 2
         x: 128
         y: 256
         width: 128
         height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.8780863, y: 0.80092573}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86bb68783ed09264b848066b84f82b95
-      internalID: -2176228539672562248
+      spriteID: e8bb839637d3d194c9b57bf428303a40
+      internalID: -6126460425838939174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flames_6
+      name: Pimple With Leg
       rect:
         serializedVersion: 2
         x: 256
         y: 256
         width: 128
         height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.40740728, y: 0.384259}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2440dc62b825cd4cafd0d4ecaf536ff
-      internalID: -3046396029731019298
+      spriteID: faccbf3bbc37f4342b6106315d862137
+      internalID: -8607786068552384979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flames_7
+      name: Spider Butt
       rect:
         serializedVersion: 2
         x: 384
         y: 256
         width: 128
         height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5077157, y: 0.13734555}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 673dc098e3c4ca040900933ff0cb0f46
-      internalID: 1319885501432452920
+      spriteID: 398bc507283929d41a8fd7586f09f2f9
+      internalID: 8023339826210084552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Auto
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029982c36cd69d142aa7029d44e500d5
+      internalID: -3304909427264989337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Directional
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.44598758, y: 0.6851851}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4c49a170779c747a2b2a850040d698
+      internalID: 9151044639295326895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bubbles
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e8d45c5c5782a4c82d2512d6f32bfa
+      internalID: -1087076532282582512
       vertices: []
       indices: 
       edges: []

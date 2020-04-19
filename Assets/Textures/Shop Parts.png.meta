@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: 1b3c5d3f21324c046a5998c27444df66
+guid: 8d4cc0bc1f00f9a4c9ba3dd76cca2ee7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1735915570321673149
-    second: Bullets 1_0
+      213: 58884960209745082
+    second: Shop Parts_0
   - first:
-      213: 6264521311052383011
-    second: Bullets 1_1
+      213: 3305874893950643151
+    second: Shop Parts_1
   - first:
-      213: 8524328865737218963
-    second: Bullets 1_2
+      213: -9098154092188200910
+    second: Shop Parts_2
   - first:
-      213: 3177258865030970662
-    second: Bullets 1_3
+      213: -558166734922140096
+    second: Shop Parts_3
   - first:
-      213: 255316752537158514
-    second: Bullets 1_4
+      213: -8640959489138850512
+    second: Shop Parts_4
   - first:
-      213: -8886535817120683870
-    second: Bullets 1_5
+      213: -1175820110447754961
+    second: Shop Parts_5
   - first:
-      213: -8723275721964479707
-    second: Bullets 1_6
+      213: 5042730089316407575
+    second: Shop Parts_6
   - first:
-      213: 1185329322599831037
-    second: Bullets 1_7
+      213: -7615316659502332977
+    second: Shop Parts_7
   - first:
-      213: 1627037474975009648
-    second: Bullets 1_8
+      213: -6467871711593329476
+    second: Shop Parts_8
   - first:
-      213: 4901479540378655238
-    second: Bullets 1_9
+      213: 5009255897032214297
+    second: Shop Parts_9
   - first:
-      213: -5416491326816216934
-    second: Bullets 1_10
+      213: -6158259863176135801
+    second: Shop Parts_10
   - first:
-      213: 4513656524735533786
-    second: Bullets 1_11
+      213: 526892802016778937
+    second: Shop Parts_11
   - first:
-      213: -1837971002883480884
-    second: Bullets 1_12
+      213: -8657816638866163738
+    second: Shop Parts_12
   - first:
-      213: -6739338185064427055
-    second: Bullets 1_13
+      213: -9068944145333601543
+    second: Shop Parts_13
   - first:
-      213: -8043566971692214676
-    second: Bullets 1_14
+      213: -8148222553398430139
+    second: Shop Parts_14
   - first:
-      213: 4559338451480485894
-    second: Bullets 1_15
+      213: 6312895083240146748
+    second: Shop Parts_15
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -111,7 +111,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,7 +123,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -135,7 +135,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -147,7 +147,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -158,7 +158,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bullets 1_0
+      name: Shop Parts_0
       rect:
         serializedVersion: 2
         x: 0
@@ -172,14 +172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08e17d3c34a4a0d4bac52ad920985e91
-      internalID: 1735915570321673149
+      spriteID: 57e15158082829d4e8edd3256ab89cb9
+      internalID: 58884960209745082
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_1
+      name: Shop Parts_1
       rect:
         serializedVersion: 2
         x: 128
@@ -193,14 +193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0527e4696f7e1144992be9ad947d80a7
-      internalID: 6264521311052383011
+      spriteID: 4052ddd76774cac45b4e3c7f948b4c2f
+      internalID: 3305874893950643151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_2
+      name: Shop Parts_2
       rect:
         serializedVersion: 2
         x: 256
@@ -214,14 +214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 692117705feb1ef45ab95a64f43b2811
-      internalID: 8524328865737218963
+      spriteID: 110fcebbafff8814a987856852c9b8c8
+      internalID: -9098154092188200910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_3
+      name: Shop Parts_3
       rect:
         serializedVersion: 2
         x: 384
@@ -235,14 +235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de55d8f6a45a44644b266a3c697f3242
-      internalID: 3177258865030970662
+      spriteID: 8593ab03948a0984182b95f7da15e12d
+      internalID: -558166734922140096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_4
+      name: Shop Parts_4
       rect:
         serializedVersion: 2
         x: 0
@@ -256,14 +256,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6feaf9cf4ee0294e87393b8497110c4
-      internalID: 255316752537158514
+      spriteID: f44e903868318314890eb533c2b5d7b0
+      internalID: -8640959489138850512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_5
+      name: Shop Parts_5
       rect:
         serializedVersion: 2
         x: 128
@@ -277,14 +277,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d79b86deef148b44286d88242336b957
-      internalID: -8886535817120683870
+      spriteID: 10bb8ee7918b64a4781167df31b34f19
+      internalID: -1175820110447754961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_6
+      name: Shop Parts_6
       rect:
         serializedVersion: 2
         x: 256
@@ -298,14 +298,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01675e0a2f2be77458850cca8f3cd901
-      internalID: -8723275721964479707
+      spriteID: e4fc7dafaa2f94544800620c25f5ec70
+      internalID: 5042730089316407575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_7
+      name: Shop Parts_7
       rect:
         serializedVersion: 2
         x: 384
@@ -319,14 +319,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5b9834a6a3568f44bd1671020397a8e
-      internalID: 1185329322599831037
+      spriteID: b07e8e3cf0fe9eb42a8e372330a35851
+      internalID: -7615316659502332977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_8
+      name: Shop Parts_8
       rect:
         serializedVersion: 2
         x: 0
@@ -340,14 +340,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0d05a05c27b3934889f0a9bba67b7e4
-      internalID: 1627037474975009648
+      spriteID: 59c069df4ac83834db0148a20bca0456
+      internalID: -6467871711593329476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_9
+      name: Shop Parts_9
       rect:
         serializedVersion: 2
         x: 128
@@ -361,14 +361,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d12d59f980adc794a8fd5a869ece5371
-      internalID: 4901479540378655238
+      spriteID: 3d18ac70e082d8344aae09315b7b482f
+      internalID: 5009255897032214297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_10
+      name: Shop Parts_10
       rect:
         serializedVersion: 2
         x: 256
@@ -382,14 +382,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8dae46a20761004f9c2fef827ab2cce
-      internalID: -5416491326816216934
+      spriteID: 03badbbb9d493044aa9a1dcdaa3ee51d
+      internalID: -6158259863176135801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_11
+      name: Shop Parts_11
       rect:
         serializedVersion: 2
         x: 384
@@ -403,14 +403,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f44e2950a1642c645be3923d8568e78b
-      internalID: 4513656524735533786
+      spriteID: 3157931533c277f4da67ec4cf3e08b68
+      internalID: 526892802016778937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_12
+      name: Shop Parts_12
       rect:
         serializedVersion: 2
         x: 0
@@ -424,14 +424,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f24c5ee7b49b16468e527444bc9be6c
-      internalID: -1837971002883480884
+      spriteID: 7ee95a31fd0feb94caf839f9dbfadfbf
+      internalID: -8657816638866163738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_13
+      name: Shop Parts_13
       rect:
         serializedVersion: 2
         x: 128
@@ -445,14 +445,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0c34c9ae53adc842b03f5079b6f1c97
-      internalID: -6739338185064427055
+      spriteID: 2e4749794bfcf64478ba88dc5b02c0a2
+      internalID: -9068944145333601543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_14
+      name: Shop Parts_14
       rect:
         serializedVersion: 2
         x: 256
@@ -466,14 +466,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1381398919b4f33448f3ed6af205240e
-      internalID: -8043566971692214676
+      spriteID: a1fa875903f71b34bbaffc5e51ea93d7
+      internalID: -8148222553398430139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullets 1_15
+      name: Shop Parts_15
       rect:
         serializedVersion: 2
         x: 384
@@ -487,8 +487,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edbe29afe8b20b54fb651b5ae419ad1a
-      internalID: 4559338451480485894
+      spriteID: afac556613b84294d8c56f98aa51e265
+      internalID: 6312895083240146748
       vertices: []
       indices: 
       edges: []
