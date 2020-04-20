@@ -9,6 +9,7 @@ TagManager:
   - Bug
   - Screen Trigger
   - Enemy Exit Trigger
+  - Bug Bullet
   layers:
   - Default
   - TransparentFX

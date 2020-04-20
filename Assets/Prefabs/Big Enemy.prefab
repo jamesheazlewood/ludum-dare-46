@@ -476,7 +476,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: -863084280879704380, guid: ec7cb357f63818043b6fbdc3ef1b2e9f,
     type: 3}
-  m_Color: {r: 0.41509432, g: 0.3090364, b: 0.26824492, a: 1}
+  m_Color: {r: 0.41568628, g: 0.26666668, b: 0.3333294, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -496,6 +496,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2806037856195337288}
   - component: {fileID: 2806037856195337289}
+  - component: {fileID: 3083232653941529219}
+  - component: {fileID: 1847780350815757068}
+  - component: {fileID: 277252395474139084}
   m_Layer: 0
   m_Name: Big Enemy
   m_TagString: Untagged
@@ -576,7 +579,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: -863084280879704380, guid: ec7cb357f63818043b6fbdc3ef1b2e9f,
     type: 3}
-  m_Color: {r: 0.5566038, g: 0.3385423, b: 0.2546725, a: 1}
+  m_Color: {r: 0.509434, g: 0, b: 0.19532669, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -586,6 +589,72 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3083232653941529219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2806037856195337290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ef5a542d6a1744186aeed915080e2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agro: 0
+  isBoss: 1
+  health: 100
+  currentHealth: 1
+  movePattern: 2
+  speed: 0.5
+  stage: 0
+--- !u!50 &1847780350815757068
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2806037856195337290}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &277252395474139084
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2806037856195337290}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.05, y: -0.91}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.46913576, y: 0.56172824}
+    oldSize: {x: 1.28, y: 1.28}
+    newSize: {x: 1.28, y: 1.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.28, y: 2.49}
+  m_EdgeRadius: 0
 --- !u!1 &2806037856443545915
 GameObject:
   m_ObjectHideFlags: 0
@@ -738,7 +807,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: -863084280879704380, guid: ec7cb357f63818043b6fbdc3ef1b2e9f,
     type: 3}
-  m_Color: {r: 0.41509432, g: 0.3090364, b: 0.26824492, a: 1}
+  m_Color: {r: 0.6792453, g: 0, b: 0.21981595, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -819,7 +888,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: -863084280879704380, guid: ec7cb357f63818043b6fbdc3ef1b2e9f,
     type: 3}
-  m_Color: {r: 0.41509432, g: 0.3090364, b: 0.26824492, a: 1}
+  m_Color: {r: 0.6415094, g: 0.56585974, b: 0.6085231, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1143,7 +1212,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: -863084280879704380, guid: ec7cb357f63818043b6fbdc3ef1b2e9f,
     type: 3}
-  m_Color: {r: 0.41509432, g: 0.3090364, b: 0.26824492, a: 1}
+  m_Color: {r: 0.5754717, g: 0.43703276, b: 0.501269, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1304,17 +1373,17 @@ PrefabInstance:
     - target: {fileID: 5855667436280410824, guid: ea361cc803f84be40b32a8f6bcf4c654,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9245283
+      value: 0.8801488
       objectReference: {fileID: 0}
     - target: {fileID: 5855667436280410824, guid: ea361cc803f84be40b32a8f6bcf4c654,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.0064662704
+      value: 0.3254717
       objectReference: {fileID: 0}
     - target: {fileID: 5855667436280410824, guid: ea361cc803f84be40b32a8f6bcf4c654,
         type: 3}
       propertyPath: m_Color.b
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5855667436280410824, guid: ea361cc803f84be40b32a8f6bcf4c654,
         type: 3}
@@ -1499,17 +1568,17 @@ PrefabInstance:
     - target: {fileID: 1068990216047906186, guid: 4b481f6f37878f742a4a61ce1c0cf7b4,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.254717
+      value: 0.5754717
       objectReference: {fileID: 0}
     - target: {fileID: 1068990216047906186, guid: 4b481f6f37878f742a4a61ce1c0cf7b4,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.09257778
+      value: 0.07329121
       objectReference: {fileID: 0}
     - target: {fileID: 1068990216047906186, guid: 4b481f6f37878f742a4a61ce1c0cf7b4,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.09011214
+      value: 0.37006554
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b481f6f37878f742a4a61ce1c0cf7b4, type: 3}
@@ -1614,17 +1683,17 @@ PrefabInstance:
     - target: {fileID: 1068990216047906186, guid: 4b481f6f37878f742a4a61ce1c0cf7b4,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.254717
+      value: 0.5754717
       objectReference: {fileID: 0}
     - target: {fileID: 1068990216047906186, guid: 4b481f6f37878f742a4a61ce1c0cf7b4,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.09257778
+      value: 0.07329121
       objectReference: {fileID: 0}
     - target: {fileID: 1068990216047906186, guid: 4b481f6f37878f742a4a61ce1c0cf7b4,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.09011214
+      value: 0.37006554
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b481f6f37878f742a4a61ce1c0cf7b4, type: 3}
