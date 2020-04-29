@@ -1,20 +1,21 @@
-p;Oh? A distress call! Some pilot must have been captured by the bugs on this dirt planet.
-p;So much skill and confidence, and yet it only takes one mistake and your whole ship is a silky cocoon.
-p;Even after so many years fighting these things, I still find them disgusting. But I love all the mix of colours and seeing them explode is like fireworks every time.
-p;Looks like it's up to me to save this one. I can't wait for someone to talk to, I wonder if he's cute?
-e;
-p;Hello? I've come to rescue you!
-a;What? Thank godness. I was sure I was going to be turned into soup.
-p;(Oh wow he is cute) Uh, yes you would have most likely have been turned into soup. It still amazes me that these bugs can grow their own spacecrafts.
-a;Yes, they use a crazy chemical to break down and metabolize metals and almost any other material. 
-a;I guess that's what we get for creating organic robots to solve our waste and energy problems aye.
-p;Although, without their origins, humanity wouldn't be exporing space!
-p;You're right. So, now that I'm free, at least I can protect you from them.
-p;Haha, the bugs are gross but they are fun to destroy. As long as you're careful and manage your supplies.
-p;Oh that's good, because I actually can't stand them. Sounds like you can handle this on your own.
-a;I could... but I'd love your company at least, I was just on my way to visit...
-p;Uh... I'm not very spontaneous. I like to think I'm a pretty careful person, despite being captured...
-a;Oh come on, would you rather be soup?
-p;Well, if you put it that way, sure!
-e;
-
+p;h;Oh? A distress call! Some pilot must have been captured by the bugs on this dirt planet.
+p;n;So much skill and confidence, and yet it only takes one mistake and your whole ship is a silky cocoon.
+p;s;I still find these things disgusting, even after so many years fighting them.
+p;h;But I love all the mix of colours and seeing them explode is like fireworks every time. Hehe. 
+p;n;Looks like it's up to me to save this one. I can't wait for someone to talk to, I wonder if he's cute?
+e;n;
+p;n;Hello? I've come to rescue you! My name is Pixie.
+a;s;What? Thank goodness. I was sure I was going to be turned into soup.
+p;n;(Oh wow he is cute) Uh, yes you would have most likely have been turned into soup. It still amazes me that these bugs can grow their own spacecrafts.
+a;n;Yes, they use a crazy chemical to break down and metabolize metals and almost any other material. 
+a;n;I guess that's what we get for creating organic robots to solve our waste and energy problems aye.
+p;n;Although, without their origins, humanity wouldn't be exporing space!
+a;n;You're right. So, now that I'm free, at least I can protect you from them. I'm Alpha, by the way. Nice to meet you, and be saved by you.
+p;h;Haha, the bugs are gross but they are fun to destroy. As long as you're careful and manage your supplies.
+a;s;Oh that's good, because I actually can't stand them. Sounds like you can handle this on your own.
+p;n;I could... but I'd love your company at least.
+a;s;Uh... I'm not very spontaneous. I like to think I'm a pretty careful person, despite being captured...
+p;s;Oh come on, would you rather be soup?
+a;n;Well, if you put it that way, sure!
+p;h;Let's get some supplies.
+e;n;

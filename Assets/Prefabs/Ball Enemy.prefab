@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1784562217519009300}
   m_Layer: 0
   m_Name: Ball Enemy
-  m_TagString: Untagged
+  m_TagString: Bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106,6 +106,7 @@ MonoBehaviour:
   movePattern: 0
   speed: 1
   points: 100
+  directionX: -1
 --- !u!50 &1612012627714274628
 Rigidbody2D:
   serializedVersion: 4

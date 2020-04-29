@@ -70,7 +70,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 6264521311052383011, guid: 1b3c5d3f21324c046a5998c27444df66,
+  m_Sprite: {fileID: -5357372865630308663, guid: fd401a98ab471c640b73789e46eb04f4,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -128,7 +128,7 @@ Transform:
   m_GameObject: {fileID: 2449577511066622141}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.107, y: -2.872, z: 0}
-  m_LocalScale: {x: 0.9821626, y: 0.9821626, z: 0.9821626}
+  m_LocalScale: {x: 0.64753, y: 0.64753, z: 0.64753}
   m_Children:
   - {fileID: 8012023403158242670}
   m_Father: {fileID: 0}
@@ -196,9 +196,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ea07abb0e9a48b48b7f89ca6ee21044, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletObject: {fileID: 6240825089249053746, guid: 1394bab2a064a66419232f10d2a25ed1,
+  bulletObject: {fileID: 5601093077391855924, guid: 8b77deccba75fcc4da8393c529234df9,
     type: 3}
-  delay: 0.25
-  shootSoundName: Shoot 1
-  animationName: Yellow Muzzle Flash
+  stats:
+    shootSoundName: 
+    travelAnimationName: 
+    explosionAnimationName: 
+    muzzleFlashAnimationName: 
+    speed: 0
+    damage: 0
+    delay: 0
   playerControlled: 1
+  active: 1

@@ -1,0 +1,1 @@
+speed, shootMult, scoreMult, moveSpeedMult, healthMult
