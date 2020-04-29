@@ -24,4 +24,16 @@ public class SoundManager : MonoBehaviour
       Debug.Log("Sound Failed: " + soundName);
     }
 	}
+
+  // Play sound
+	public void StopSound(string soundName)
+	{
+		AudioSource a = soundLibrary.transform.Find(soundName).GetComponent<AudioSource>();
+
+    if(a != null) {
+      a.Stop();
+    } else {
+      Debug.Log("Sound Failed: " + soundName);
+    }
+	}
 }

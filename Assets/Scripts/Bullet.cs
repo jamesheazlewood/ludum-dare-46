@@ -10,6 +10,8 @@ public class Bullet : MonoBehaviour
   public bool alive = true;
   public float lifeTime = 2.0f;
   public string hitSoundName = "";
+  public string travelAnimationName = "Bullet Yellow";
+  public string explosionAnimationName = "Bullet Yellow Explode";
 
   private Animator animator = null;
   private SoundManager soundManager = null;
@@ -20,7 +22,8 @@ public class Bullet : MonoBehaviour
   {
     gameBehaviour = GameObject.Find("GameBehaviour").GetComponent<GameBehaviour>();
     soundManager = gameBehaviour.soundManager;
-    animator = GetComponent<Animator>();
+    animator = transform.Find("Anim").GetComponent<Animator>();
+    animator.Play(travelAnimationName, -1, 0f);
   }
 
   // Update is called once per frame
@@ -38,10 +41,10 @@ public class Bullet : MonoBehaviour
 
   public void Explode() {
     alive = false;
-    Debug.Log("Explo");
     transform.rotation = Quaternion.AngleAxis(Random.Range(0, 360), Vector3.back);
-    animator.SetBool("Dead", true);
+    // animator.SetBool("Dead", true);
     soundManager.PlaySound(hitSoundName);
+    animator.Play(explosionAnimationName, -1, 0f);
     lifeTime = 1.0f;
   }
 }

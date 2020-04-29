@@ -8,6 +8,7 @@ public enum MovePattern {
   DownThenIn,
   DownThenStay,
   Grounded,
+  DownThenUp,
 }
 
 public class Enemy : MonoBehaviour
@@ -18,8 +19,10 @@ public class Enemy : MonoBehaviour
   public int health = 1;
   public MovePattern movePattern = MovePattern.DriftDown;
   public float speed = 1.0f;
+  public float xSpeed = 0.0f;
   public int points = 100;
   public int directionX = -1;
+  public bool alive = true;
 
   private int currentHealth = 1;
   private int stage = 0;
@@ -28,6 +31,7 @@ public class Enemy : MonoBehaviour
   private GameBehaviour gameBehaviour = null;
   private float stageTimer = 0;
   private string explosionSound;
+  private Slider bossSlider = null;
 
   // Start is called before the first frame update
   void Start()
@@ -35,7 +39,9 @@ public class Enemy : MonoBehaviour
     gameBehaviour = GameObject.Find("GameBehaviour").GetComponent<GameBehaviour>();
     soundManager = gameBehaviour.soundManager;
     currentHealth = health;
+    bossSlider = gameBehaviour.bossHudHealth.transform.Find("Slider").GetComponent<Slider>();
     stageTimer = 0;
+    alive = true;
 
     if(isBoss) {
       explosion = gameBehaviour.explosionBoss;
@@ -56,52 +62,63 @@ public class Enemy : MonoBehaviour
   {
     if(agro) {
       stageTimer += Time.deltaTime;
+      var newX = transform.position.x;
+      var newY = transform.position.y;
 
       switch(movePattern) {
         case MovePattern.DriftDown: {
-          var newY = transform.position.y - speed * Time.deltaTime;
-
-          transform.position = new Vector3(
-            transform.position.x,
-            newY,
-            transform.position.z
-          );
+          newY -= speed * Time.deltaTime;
           break;
         }
         case MovePattern.DownThenStay: {
           if(stage == 0) {
-            var newY = transform.position.y - speed * Time.deltaTime;
-
-            transform.position = new Vector3(
-              transform.position.x,
-              newY,
-              transform.position.z
-            );
+            newY -= speed * Time.deltaTime;
 
             if(stageTimer > 3) {
               directionX = 1;
+              if(isBoss) {
+                gameBehaviour.levelSpeed = 0;
+              }
               NextStage();
             }
           }
-          if(stage == 1) {
-            var newY = transform.position.y + gameBehaviour.levelSpeed * Time.deltaTime;
-            var newX = transform.position.x + directionX * Time.deltaTime;
 
-            transform.position = new Vector3(newX,newY,transform.position.z);
+          if(stage == 1) {
+            newY -= gameBehaviour.levelSpeed * Time.deltaTime;
+            newX += directionX * Time.deltaTime;
+
+            if(transform.position.x > 2.0f) {
+              directionX = -1;
+            }
+            if(transform.position.x < -2.0f) {
+              directionX = 1;
+            }
           }
 
           break;
         }
         case MovePattern.DownThenIn: {
-          if(stage == 1) {
-            var newY = transform.position.y - speed * Time.deltaTime;
-
-            transform.position = new Vector3(
-              transform.position.x,
-              newY,
-              transform.position.z
-            );
+          newY -= speed * Time.deltaTime;
+          if(stageTimer > 3) {
+            if(newX > 0) {
+              directionX = -1;
+            } else {
+              directionX = 1;
+            }
+            NextStage();
           }
+          if(stage == 1) {
+            newX += speed * directionX * Time.deltaTime;
+          }
+
+          break;
+        }
+        case MovePattern.DownThenUp: {
+          speed -= stageTimer * 2.7f * Time.deltaTime;
+          if(speed < -6.0f) {
+            speed = -6.0f;
+          }
+          newY -= speed * Time.deltaTime;
 
           break;
         }
@@ -110,6 +127,8 @@ public class Enemy : MonoBehaviour
           break;
         }
       }
+
+      transform.position = new Vector3(newX, newY, transform.position.z);
     }
   }
 
@@ -118,19 +137,40 @@ public class Enemy : MonoBehaviour
     stage += 1;
   }
 
-  void Hurt(int damage) {
-    currentHealth -= damage;
+  public void Hurt(int damage) {
+    if(alive) {
+      currentHealth -= damage;
 
-    if(currentHealth <= 0) {
-      Instantiate(explosion, transform.position, transform.rotation);
-      soundManager.PlaySound(explosionSound);
-      gameBehaviour.AddPoints(points);
-      Destroy(gameObject);
+      if(currentHealth <= 0) {
+        Instantiate(explosion, transform.position, transform.rotation);
+        soundManager.PlaySound(explosionSound);
+        gameBehaviour.AddPoints(points);
+        alive = false;
+
+        if(isBoss) {
+          RemoveBossHealth();
+          gameBehaviour.ExplodeAllBugBullets();
+          gameBehaviour.DamageAllAgroBugs(999999);
+          gameBehaviour.StartEndLevelSequence();
+        }
+
+        Destroy(gameObject);
+      }
     }
   }
 
+  void InitBossHealth() {
+    gameBehaviour.bossHudHealth.SetActive(true);
+    bossSlider.maxValue = currentHealth;
+    bossSlider.value = currentHealth;
+  }
+
+  void RemoveBossHealth() {
+    gameBehaviour.bossHudHealth.SetActive(false);
+  }
+
   // when the GameObjects collider arrange for this GameObject to travel to the left of the screen
-  void OnTriggerEnter2D(Collider2D col)
+  void OnTriggerStay2D(Collider2D col)
   {
     // Only do stuff if activated
     if(agro) {
@@ -142,24 +182,24 @@ public class Enemy : MonoBehaviour
           Hurt(b.damage);
           
           if(isBoss) {
-            gameBehaviour.bossHudHealth.transform.Find("Slider").GetComponent<Slider>().value = currentHealth;
+            bossSlider.value = currentHealth;
           }
         }
       } else if(col.gameObject.tag == "Human") {
         Hurt(1);
       } else if(col.gameObject.tag == "Enemy Exit Trigger") {
         if(isBoss) {
-          gameBehaviour.bossHudHealth.SetActive(false);
+          RemoveBossHealth();
         }
         Destroy(gameObject);
       }
     } else if(col.gameObject.tag == "Screen Trigger") {
       agro = true;
       if(isBoss) {
-        gameBehaviour.bossHudHealth.SetActive(true);
+        InitBossHealth();
       }
     }
 
-    Debug.Log(col.gameObject.name + " : " + gameObject.name + " : " + Time.time);
+    // Debug.Log(col.gameObject.name + " : " + gameObject.name + " : " + Time.time);
   }
 }

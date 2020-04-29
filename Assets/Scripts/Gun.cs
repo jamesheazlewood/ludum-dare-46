@@ -6,9 +6,7 @@ public class Gun : MonoBehaviour
 {
   // Setup
   public GameObject bulletObject = null;
-  public float delay = 0.5f;
-  public string shootSoundName = "";
-  public string animationName = "";
+  public GunStats stats;
   public bool playerControlled = true;
   public bool active = false;
 
@@ -36,10 +34,15 @@ public class Gun : MonoBehaviour
         || (!playerControlled && gameBehaviour.alphaFireDown);
 
     if(timer < 0 && active && shooting) {
-      timer = delay;
-      soundManager.PlaySound(shootSoundName);
-      Instantiate(bulletObject, transform.position + transform.up * 0.2f, transform.rotation);
-      animator.Play(animationName, -1, 0f);
+      timer = stats.delay;
+      soundManager.PlaySound(stats.shootSoundName);
+      var bullet = Instantiate(bulletObject, transform.position + transform.up * 0.6f, transform.rotation);
+      var bulletScript = bullet.GetComponent<Bullet>();
+      bulletScript.travelAnimationName = stats.travelAnimationName;
+      bulletScript.explosionAnimationName = stats.explosionAnimationName;
+      bulletScript.speed = stats.speed;
+      bulletScript.damage = stats.damage;
+      animator.Play(stats.muzzleFlashAnimationName, -1, 0f);
     }
   }
 }

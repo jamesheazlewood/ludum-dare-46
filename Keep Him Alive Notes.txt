@@ -1,0 +1,101 @@
+TODO
+--------------
+Remove right-click speed-up
+Export new HTML5 version and upload to itch.io
+Fix size for mobile full-screen on itch.io - probably 320 wide?
+
+TODO AFTER
+-------------------------------------------------
+Create apk
+Create level 6
+Create level 7
+Create new level graphics (maybe water)
+Create city graphics
+Create dry grass graphics
+creatre snow graphics
+Add weapon capability to Alpha
+Add weapon for move speed
+Create new tileset and switch on level (new layer maybe)
+
+DONE
+-------------------------------------------------
+Modify guns when item is bought
+Move alpha coccoon down
+move alpha x
+update score in hud after all buys
+update hud after buying shields
+Add bomb buy - update hud on buy
+Move alpha down to bottom
+-1.34 -3.9 
+1.32 -3.9
+Start moving again on shop done
+Level number transition
+Disable bomb while game state is not Playing
+Alpha move
+Fix boss movement - needs to hit left and right
+Down gun
+Shop buy
+Buy adds weapons
+Buy adds shields
+Buy adds bombs
+Current weapon shows in HUD
+Passive weapons show in hud
+Bullet and effects for blue laser
+Bullet and effects for rockets
+Bullet and effects for wave
+Bullet and effects for Star destroyer
+random enemy groups on all other levels
+After level 10, increase enemy shoot speed
+Slower ship ???
+
+Done
+------------
+Shop base
+Alpha hud doesn't turn on
+Panic bomb tutorial appears after dialogue, should be alpha
+Fix diagonal weapon mess
+bullet impact on player is wrong
+player doesnt die
+boss death trigger 
+Auto gun
+Alpha cocoon
+Add Intro sequence
+Tutorial for bombs and protecting alpha
+
+----------------------------------------------------------------------------------------------------
+speed, shootMult, scoreMult, moveSpeedMult, healthMult
+
+Shield
+Chocolates
+Flowers
+
+Comet Blaster
+Fry Laser
+Missile Rack
+Pulse Cannon
+Blueberry
+Micro Missiles
+Star Destroyer
+
+0: Gun Middle
+1: Gun Under
+2: Gun Left Forward
+3: Gun Right Forward
+4: Gun Left Diagonal
+5: Gun Right Diagonal
+6: Gun Wing Left
+7: Gun Wing Right
+8: Gun Spread Left
+9: Gun Spread Right
+
+1 unit in unity is 10 metres
+unity to m/s * 10
+unity to km/h * 30.6
+m/s to km/h - calculate * 3.6
+so speed 10 is 100 m/s
+
+level speed 0.33 - 20.4 km/h
+sound: 343 m/s (1,235 km/h)
+
+bullet: 120 m/s to 370 m/s -- mav. 245 m/s (882 mk/h)
+

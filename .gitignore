@@ -58,3 +58,9 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Specific to this project because I something
+/[Bb]uild2/
+/[Bb]uild3/
+/[Bb]uild4/
+/[Bb]uild5/
+/[Ll]ibrary Old/
